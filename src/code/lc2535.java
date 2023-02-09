@@ -13,7 +13,7 @@ import java.util.Arrays;
         来源：力扣（LeetCode）
         链接：https://leetcode.cn/problems/difference-between-element-sum-and-digit-sum-of-an-array
         著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。*/
-public class lc6291 {
+public class lc2535 {
     public int differenceOfSum(int[] nums) {
         int s1 = Arrays.stream(nums).sum();
         int s2 = 0;

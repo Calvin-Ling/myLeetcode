@@ -4,7 +4,10 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 
-public class lc6347 {
+/*
+https://leetcode.cn/problems/count-vowel-strings-in-ranges/
+ */
+public class lc2559 {
     public int[] vowelStrings(String[] words, int[][] queries) {
         int[] dp = new int[words.length];
         Set<Character> set = new HashSet<>();

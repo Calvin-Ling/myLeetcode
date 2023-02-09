@@ -1,6 +1,8 @@
 package code;
-
-public class lc6348 {
+/*
+https://leetcode.cn/problems/take-gifts-from-the-richest-pile/submissions/
+ */
+public class lc2558 {
     public long pickGifts(int[] gifts, int k) {
         for (int j = 0; j < k; j++) {
             int m = 0;
